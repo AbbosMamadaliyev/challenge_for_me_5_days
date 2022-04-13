@@ -13,7 +13,7 @@ class _ExamplePage4State extends State<ExamplePage4> {
 
   List<String> bodies = [
     'assets/images/work.gif',
-    'assets/images/work.gif',
+    'assets/images/profile.gif',
   ];
 
   @override
@@ -27,7 +27,6 @@ class _ExamplePage4State extends State<ExamplePage4> {
         height: double.infinity,
         child: Image.asset(
           bodies[sectionIndex],
-          fit: BoxFit.cover,
         ),
       ),
       bottomNavigationBar: customNavigationBar(),
